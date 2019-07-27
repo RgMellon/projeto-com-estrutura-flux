@@ -16,15 +16,15 @@ import {
 
 import { Container, ProductTable, Total } from './styles';
 
-function Cart({ cart, removeFromItemCart, updateAmount, total }) {
+function Cart({ cart, removeFromItemCart, updateAmountRequest, total }) {
   function handleIncrementAmount(product) {
     const amount = product.amount + 1;
-    updateAmount(product.id, amount);
+    updateAmountRequest(product.id, amount);
   }
 
   function handleDecrementAmount(product) {
     const amount = product.amount - 1;
-    updateAmount(product.id, amount);
+    updateAmountRequest(product.id, amount);
   }
 
   return (
