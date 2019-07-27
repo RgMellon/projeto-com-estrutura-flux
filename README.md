@@ -9,3 +9,11 @@
   <li> redux-saga </li>
   <li> styled-component </li>
 </ul>
+
+
+<h6> Home Projeto </h6>
+
+<img src="https://user-images.githubusercontent.com/29661994/61995244-0d695f00-b05c-11e9-92dd-b4df0047d498.png" width="500"/>
+
+<h6> Cart Projeto </h6>
+
